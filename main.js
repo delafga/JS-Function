@@ -2,7 +2,7 @@
 function reverseString(message){
 	return message.split('').reverse().join('');
 }
-//document.write(reverseString("stupid"));
+//document.write(reverseString("coffee"));
 
 
 //Function 2
