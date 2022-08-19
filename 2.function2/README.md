@@ -9,3 +9,17 @@ function palindrome(message){
 palindrome('hello'); // should return false
 palindrome('abcba'); // should return true
 ```
+//Function 2
+function palindrome(message){
+	for(let ctr = 0; ctr < message.length; ctr++){
+		if(message[ctr] == message[message.length-(ctr+1)]){
+			if(ctr == message.length-1){
+				return true;
+			}
+			continue;
+		}
+		else{
+			return false;
+		}
+	}
+}

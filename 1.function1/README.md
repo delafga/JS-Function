@@ -8,3 +8,7 @@ function reverseString(message){
 }
 reverseString('hello'); // should return 'olleh'
 ```
+//Function 1
+function reverseString(message){
+	return message.split('').reverse().join('');
+}

@@ -8,3 +8,7 @@ function alphabetSort(message){
 }
 alphabetSort('hello'); // should return 'ehllo'
 ```
+//Function 3
+function alphabetSort(message){
+  return message.split('').sort().join('');
+}
